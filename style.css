@@ -1,0 +1,347 @@
+.body{
+    margin-top: 0em;
+    margin-bottom: 0em;
+    margin-right: 0em;
+    margin-left: 0em;
+}
+
+.unv-border{
+    border-style: solid;
+    border-color: aqua;
+    border-width: 2px;
+}
+.local-head{
+    display: flex;
+    background-color: rgb(242, 242, 246);
+    margin-top: 0em;
+}
+
+.LH-para{
+    color: rgba(0, 0, 0, 0.8);
+    padding-left: 6em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+.LH-drop{
+    padding-left: 5em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    
+}
+
+.LH-button{
+    margin-left: 1em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.LH-cross{
+    padding-left: 1em;
+    padding-top: 0.8em;
+    padding-bottom: 1em;
+}
+
+.hr1{
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+.main-header{
+    display: flex;
+}
+
+.MH-nav{
+    display: flex;
+}
+
+.MH-1div{
+    display: flex;
+}
+
+.MH-button{
+    display: flexbox;
+    padding-left: 6em;
+    margin: 0;
+    color: white;
+    background-color: white;
+    border: none;
+}
+
+.MH-navbar{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a{
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.MH-search{
+    display: flex;
+    padding-left: 1em;
+}
+
+.MH-bag{
+    display: flex;
+    padding-left: 2em;
+}
+
+.hr2{
+    margin-top: 0em;
+    margin-bottom: 0em;
+    padding: 0;
+}
+
+/*.MS1{
+    background-image: url(hero_macbook_air_avail__fpm99qgohx2e_large_2x.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+}*/
+
+/*.MS1-bottomtext{
+    align-items: center;
+}*/
+
+.headline{
+    display: grid;
+    place-items: center;
+    margin: 0em;
+    padding-top: 0.5em;
+    padding-bottom: 0em;
+    font-size: 56px;
+}
+
+.subhead{
+    display: grid;
+    place-items: center;
+    margin: 0;
+    padding: 0em;
+    font-size: 28px;
+    text-align: center;
+
+}
+
+.MS1-button{
+    display: block;
+    text-align: center;
+}
+
+.LM-button{
+    padding-left: 4px;
+    margin-right: 20px;
+}
+
+.LM-buy{
+    padding-right: 3px;
+}
+
+.bottomtext{
+    display: grid;
+    place-items: center;
+    margin-top: 310px;
+    font-size: 21px;
+
+}
+.MS1-figure{
+    position: absolute;
+    /*left: 0px;
+    right: 0px;*/
+    z-index: -1;
+    transform: scale(2.5,1);
+    display: block;
+    margin: auto;
+    /*width: 100%;
+    height: 600px;*/
+}
+
+.F1{
+    background-color: rgb(245, 245, 247);
+    /* display: inline-flex;
+    float: left; */
+}
+
+.F4{
+    border-style: solid;
+    border-width: 2px;
+    background-color: rgb(245, 245, 247);
+    display: inline-flex;
+    float: left;
+    width: 1090px;
+    margin: 10px 10px ;
+    padding-left: 80px;
+}
+
+.F4-UL{
+    border-style: solid;
+    border-width: 2px;
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    place-items: center;
+    padding-left: 30px;
+}
+
+.F4.UL li{
+    
+    display: flex;
+    position: relative;
+    place-items: center;
+}
+
+.F4-CN{
+    border-style: solid;
+    border-width: 2px;
+    display: flex;
+    float: left;
+    place-items: center;
+    padding-left: 50px;
+}
+
+.F1-content{
+    border-style: solid;
+    border-color: blue;
+    border-width: 2px;
+    display: block;
+    width: 100%;
+}
+
+.F1-menu{
+    border-style: solid;
+    border-color: aqua;
+    border-width: 2px;
+    display: flex;
+}
+
+.F1-contact{
+    border-style: solid;
+    border-color: blueviolet;
+    border-width: 2px;
+    display: block;
+    width: 100%;
+}
+
+.F1-menu-list{
+    display: inline-block;
+}
+
+.MS2-figure{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    z-index: -1;
+    transform: scale(1,1);
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 600px;
+}
+
+.MS3-figure{
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    z-index: -1;
+    transform: scale(1,1);
+    display: block;
+    margin: auto;
+    width: 100%;
+    height: 380px;
+}
+
+.border{
+    box-sizing: border-box;
+}
+
+.slide-container{
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+.mySlides{
+    display: block;
+    box-sizing: border-box;
+}
+
+.prev, .next{
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+.next{
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover, .next:hover{
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.text{
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 18px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+}
+
+.numbertext{
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dot{
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active , .dot:hover{
+    background-color: #717171;
+}
+
+.fade{
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade{
+    from{opacity: .4;}
+    to{opacity: 1;}
+}
